@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn {
+    color: #000000;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+   } 
+
+/* HEAD ER NAV */
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #6C462F;
+}
+
+.navbar-1{
+    font-size: 18px;
+}
+
+.titulo-1{
+    font-size: 48px;
+}
+
+.p-c1 {
+    font-size: 22px;
+}
+
+/* WHITE PEARLS */
+
+.contenedor-wp {
+    margin: 10%;
+}
+
+/* COLLECTION */
+
+.container-collection {
+    margin: 11%;
+}
+
+
+/* ULTIMA PARTE */
+
+.final-1{
+    height: 700px;
+    width: 800px;
+}
+
+.titulo-f {
+    font-size: 48px;
+}
+
+.final-1 {
+    width: 100px;
+}
+
+
+/* REGISTER */
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+.h-custom-2 {
+    height: 100%;
+}
