@@ -23,6 +23,10 @@ img {
     font-size: 17px;
    } 
 
+.titulos {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 /* HEAD ER NAV */
 
 
@@ -61,6 +65,7 @@ img {
 
 /* COLLECTION */
 
+
 .container-collection {
     margin: 11%;
 }
@@ -74,6 +79,7 @@ img {
 }
 
 .titulo-f {
+    font-family: 'Cormorant Garamond', serif;
     font-size: 48px;
 }
 
@@ -81,6 +87,11 @@ img {
     width: 100px;
 }
 
+/* animation */
+
+.animate__fadeIn{
+    animation-duration: 2s;
+}
 
 /* REGISTER */
 
@@ -92,6 +103,74 @@ img {
     background-size: auto 100%;
     }
     
+.register1::shadow {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    animation-duration: 5s;
+}
+
 .h-custom-2 {
     height: 100%;
+}
+
+/* mobile */
+@media screen and (max-width:450px) {
+    .texto-encima {
+        font-size: 22px;
+        top: 50px;
+        left: 80px;
+    }
+
+    .texto-abajo-1 {
+        font-size: 12px;
+    }
+
+    .titulo-2 {
+        font-size: 14px;
+    }
+
+    .final-1{
+        height: 200px;
+        width: 300px;
+    }
+
+    .p-c1 {
+        font-size: 18px;
+    }
+
+    .ig-1 {
+        width: 40%;
+    }
+
+    .titulo-f {
+        font-size: 18px;
+    }
+}
+
+/* tablet */
+
+@media screen and (min-width:451) {
+    .texto-encima {
+        font-size: 22px;
+    }
+
+    .final-1{
+        height: 350px;
+        width: 600px;
+    }
+
+    .titulo-f {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .p-c1 {
+        font-size: 14px;
+    }
+
+    .titulo-1 {
+        font-size: 32px;
+    }
 }
