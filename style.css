@@ -49,12 +49,8 @@ img {
     font-size: 18px;
 }
 
-.titulo-1{
-    font-size: 48px;
-}
-
-.p-c1 {
-    font-size: 22px;
+.navbar-collection {
+    background-color: white;
 }
 
 /* WHITE PEARLS */
@@ -70,12 +66,34 @@ img {
     margin: 11%;
 }
 
+/* MITAD */
+
+.post-medio {
+    display: grid;
+}
+
+.titulo-1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+}
+
+.pm-img {
+    width: 50%;
+}
+
+.p-c1 {
+    font-size: 20px;
+}
+
+.pm-content {
+    margin: 30px;
+}
 
 /* ULTIMA PARTE */
 
 .final-1{
-    height: 700px;
-    width: 800px;
+    margin: 100px;
+    height: 500px;
 }
 
 .titulo-f {
@@ -83,8 +101,18 @@ img {
     font-size: 48px;
 }
 
-.final-1 {
-    width: 100px;
+.p-2 {
+    font-size: 18px;
+}
+
+.ultimo-post {
+    display: grid;
+}
+
+/* foooter */
+
+.footer-container {
+    background-color: #DED8D2;
 }
 
 /* animation */
@@ -92,6 +120,24 @@ img {
 .animate__fadeIn{
     animation-duration: 2s;
 }
+
+/* shop */
+
+.s-titulo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+.s-container {
+    background-color: #ded8d2ce;
+}
+
+/* contact */
+
+/* .contact-collection {
+    background-color: #f3e5d6e0;
+} */
 
 /* REGISTER */
 
