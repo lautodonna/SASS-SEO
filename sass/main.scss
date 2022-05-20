@@ -1,0 +1,18 @@
+@import './var/variables';
+
+/* base */
+@import './base/resets';
+@import './base/base';
+
+/* layout */
+@import './layout/header';
+@import './layout/footer';
+
+/* components */
+@import './componentes/collection.scss';
+@import './componentes/ultimopost.scss';
+@import './componentes/whitepearls.scss';
+@import './componentes/postmedio.scss';
+@import './componentes/shop.scss';
+@import './componentes/register.scss';
+@import './componentes/animations.scss';

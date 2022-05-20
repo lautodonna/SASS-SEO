@@ -1,0 +1,115 @@
+/* tipografias */
+/* colores */
+/* mediaq */
+/* base */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.btn {
+  color: black;
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px; }
+
+.titulos {
+  font-family: "Cormorant Garamond", serif; }
+
+/* layout */
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.texto-encima {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 100px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  color: #6C462F; }
+
+.navbar-1 {
+  font-size: 18px; }
+
+.navbar-collection {
+  background-color: black; }
+
+.footer-container {
+  background-color: #DED8D2; }
+
+/* components */
+.container-collection {
+  margin: 11%; }
+
+.final-1 {
+  margin: 100px;
+  height: 500px; }
+
+.titulo-f {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px; }
+
+.p-2 {
+  font-size: 18px; }
+
+.ultimo-post {
+  display: grid; }
+
+.contenedor-wp {
+  margin: 10%; }
+
+.post-medio {
+  display: grid; }
+
+.titulo-1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px; }
+
+.pm-img {
+  width: 50%; }
+
+.p-c1 {
+  font-size: 20px; }
+
+.pm-content {
+  margin: 30px; }
+
+.s-titulo {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 42px;
+  text-align: left; }
+
+.s-container {
+  background-color: #ded8d2ce; }
+
+.bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%; }
+
+.register1::shadow {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  animation-duration: 5s; }
+
+.h-custom-2 {
+  height: 100%; }
+
+.animate__fadeIn {
+  animation-duration: 2s; }

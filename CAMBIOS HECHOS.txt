@@ -1,0 +1,4 @@
+1. Cambios de titulos en los htmls
+2. Se agrego SEO (OpenGraph, favicon, y meta) a los htmls
+3. Se incluyo SASS
+4. Se agrego el footer faltante

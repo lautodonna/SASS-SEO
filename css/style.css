@@ -1,0 +1,61 @@
+
+
+/* mobile */
+@media screen and (max-width:450px) {
+    .texto-encima {
+        font-size: 22px;
+        top: 50px;
+        left: 80px;
+    }
+
+    .texto-abajo-1 {
+        font-size: 12px;
+    }
+
+    .titulo-2 {
+        font-size: 14px;
+    }
+
+    .final-1{
+        height: 200px;
+        width: 300px;
+    }
+
+    .p-c1 {
+        font-size: 18px;
+    }
+
+    .ig-1 {
+        width: 40%;
+    }
+
+    .titulo-f {
+        font-size: 18px;
+    }
+}
+
+/* tablet */
+
+@media screen and (min-width:451px) {
+    .texto-encima {
+        font-size: 22px;
+    }
+
+    .final-1{
+        height: 350px;
+        width: 600px;
+    }
+
+    .titulo-f {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .p-c1 {
+        font-size: 14px;
+    }
+
+    .titulo-1 {
+        font-size: 32px;
+    }
+}
