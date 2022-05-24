@@ -1,3 +1,20 @@
+/* wp */
 .contenedor-wp {
     margin: 10%;
+}
+
+
+
+@media screen and (max-width:450px) {
+.texto-abajo-1 {
+    font-size: 12px;
+    }
+
+    .img-wp {
+        width: 100%;
+    }
+    
+    .text-1-wp {
+        font-size: 14px;
+    }
 }

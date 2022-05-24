@@ -1,5 +1,5 @@
 $colores: (
-    negro : black,
+    blanco : white,
 );
 
 
@@ -23,5 +23,32 @@ $colores: (
 }
 
 .navbar-collection {
-    background-color: map-get($colores , negro ) ;
+    background-color: map-get($colores , blanco ) ;
+}
+
+/* mobile */
+
+@media screen and (max-width: 450px) {
+    .texto-encima {
+        font-size: 22px;
+        top: 50px;
+        left: 80px;
+    }
+
+}
+
+@media screen and (min-width:451px) and (max-width:768px) {
+    .texto-encima {
+        font-size: 22px;
+        top: 50px;
+        left: 120px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .texto-encima {
+        font-size: 22px;
+        top: 50px;
+        left: 120px;
+    }   
 }

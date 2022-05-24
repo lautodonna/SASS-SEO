@@ -1,20 +1,61 @@
-.post-medio {
-    display: grid;
+/* post medio */
+
+.container-post-medio {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 11%;
 }
 
-.titulo-1 {
+.titulo-pm {
     font-family: $font-2;
     font-size: 48px;
 }
 
-.pm-img {
+.img-pm {
     width: 50%;
+    object-fit: cover;
 }
 
 .p-c1 {
     font-size: 20px;
 }
 
-.pm-content {
+.content-pm {
     margin: 30px;
+}
+
+@media screen and (max-width:450px) {
+    .container-post-medio {
+        display: grid;
+        padding:30px;
+        margin:40px;
+    }
+    
+    .img-pm {
+        width: 80%; 
+        height:400px;
+    }
+    
+    .titulo-pm {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 42px;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .p-c1 {
+        font-size: 18px;
+    }
+
+    .content-pm {
+        margin: 30px;
+    }
+}
+
+
+@media screen and (min-width:451px) {
+.titulo-pm {
+    font-size: 32px;
+}
 }
